@@ -1,0 +1,39 @@
+/*
+ * fsm_automatic.c
+ *
+ *  Created on: Nov 13, 2023
+ *      Author: Administrator
+ */
+
+#include "fsm_automatic.h"
+
+void fsm_automatic_run(){
+	switch(status){
+	case INIT:{
+
+		HAL_GPIO_WritePin(RED_LED_GPIO_Port, LED_RED_Pin, GPIO_PIN_SET);
+		HAL_GPIO_WritePin(RED_LED_GPIO_Port, LED_RED_Pin, GPIO_PIN_SET);
+		HAL_GPIO_WritePin(RED_LED_GPIO_Port, LED_RED_Pin, GPIO_PIN_SET);
+		status = AUTO_RED;
+		set
+		break;
+	}
+	case AUTO_RED:{
+		// TODO
+		HAL_GPIO_WritePin(RED_LED_GPIO_Port, LED_RED_Pin, GPIO_PIN_RESET);
+
+		status = AUTO_GREEN;
+		break;
+	}
+	case AUTO_GREEN:{
+		status = AUTO_YELLOW;
+		break;
+	}
+	case AUTO_YELLOW:{
+		status = AUTO_RED;
+		break;
+	}
+	default:
+		break;
+	}
+}

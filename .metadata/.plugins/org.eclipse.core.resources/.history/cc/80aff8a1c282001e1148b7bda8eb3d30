@@ -1,0 +1,20 @@
+/*
+ * button.h
+ *
+ *  Created on: Nov 13, 2023
+ *      Author: Administrator
+ */
+
+#ifndef INC_BUTTON_H_
+#define INC_BUTTON_H_
+
+#include "main.h"
+#include "global.h"
+
+#define NORMAL_STATE GPIO_PIN_SET
+#define PRESSED_STATE GPIO_PIN_RESET
+
+
+void getKeyInput(int button_index);
+int isButtonPressed(int button_index);
+#endif /* INC_BUTTON_H_ */

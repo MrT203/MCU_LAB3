@@ -1,0 +1,14 @@
+/*
+ * fsm_automatic.c
+ *
+ *  Created on: Nov 13, 2023
+ *      Author: Administrator
+ */
+
+#ifndef SRC_FSM_AUTOMATIC_C_
+#define SRC_FSM_AUTOMATIC_C_
+
+#include "fsm_automatic.h"
+
+
+#endif /* SRC_FSM_AUTOMATIC_C_ */

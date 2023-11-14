@@ -1,0 +1,13 @@
+/*
+ * display.h
+ *
+ *  Created on: Nov 13, 2023
+ *      Author: Administrator
+ */
+
+#ifndef INC_DISPLAY_H_
+#define INC_DISPLAY_H_
+
+void display7SEG();
+
+#endif /* INC_DISPLAY_H_ */

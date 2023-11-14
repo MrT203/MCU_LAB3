@@ -1,0 +1,19 @@
+/*
+ * fsm_traffic_light.c
+ *
+ *  Created on: Nov 13, 2023
+ *      Author: Administrator
+ */
+
+#ifndef INC_FSM_TRAFFIC_LIGHT_C_
+#define INC_FSM_TRAFFIC_LIGHT_C_
+
+
+#include "global.h"
+#include "button.h"
+#include "main.h"
+#include "display.h"
+#include "software_timer.h"
+
+void fsm_traffic_light();
+#endif /* INC_FSM_TRAFFIC_LIGHT_C_ */

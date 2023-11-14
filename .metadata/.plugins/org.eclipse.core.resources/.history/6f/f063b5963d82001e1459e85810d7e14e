@@ -1,0 +1,18 @@
+/*
+ * global.h
+ *
+ *  Created on: Nov 13, 2023
+ *      Author: Administrator
+ */
+
+#ifndef INC_GLOBAL_H_
+#define INC_GLOBAL_H_
+
+#define INIT 11
+#define AUTO_RED 12
+#define AUTO_GREEN 13
+#define AUTO_YELLOW 14
+
+extern int status;
+
+#endif /* INC_GLOBAL_H_ */

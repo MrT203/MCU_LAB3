@@ -1,0 +1,12 @@
+/*
+ * global.c
+ *
+ *  Created on: Nov 13, 2023
+ *      Author: Administrator
+ */
+
+#include "global.h"
+
+// khai bao cac bien toan cuc
+
+int status = 0;

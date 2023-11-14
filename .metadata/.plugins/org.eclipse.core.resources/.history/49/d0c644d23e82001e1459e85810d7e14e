@@ -1,0 +1,33 @@
+/*
+ * fsm_automatic.c
+ *
+ *  Created on: Nov 13, 2023
+ *      Author: Administrator
+ */
+
+#include "fsm_automatic.h"
+
+void fsm_automatic_run(){
+	switch(status){
+	case INIT:{
+		status = AUTO_RED;
+		break;
+	}
+	case AUTO_RED:{
+		// TODO
+		HAL_GPIO
+		status = AUTO_GREEN;
+		break;
+	}
+	case AUTO_GREEN:{
+		status = AUTO_YELLOW;
+		break;
+	}
+	case AUTO_YELLOW:{
+		status = AUTO_RED;
+		break;
+	}
+	default:
+		break;
+	}
+}
